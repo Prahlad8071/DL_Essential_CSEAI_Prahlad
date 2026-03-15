@@ -31,7 +31,7 @@ plt.show()
 
 model = Sequential([
     Flatten(input_shape=(28, 28)),
-    Dense(256, activation='sigmoid'),  
+    Dense(256, activation='sigmoid'),
     Dense(128, activation='sigmoid'), 
     Dense(10, activation='softmax'),  
 ])
